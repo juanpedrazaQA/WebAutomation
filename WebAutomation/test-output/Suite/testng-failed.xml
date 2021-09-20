@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.travelocity.testCases.TC_Exercise_001">
+        <methods>
+          <include name="goToHomePage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.travelocity.testCases.TC_Exercise_001 -->
+      <class name="com.travelocity.testCases.TC_Exercise_002">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.travelocity.testCases.TC_Exercise_002 -->
+      <class name="com.travelocity.testCases.TC_Exercise_003">
+        <methods>
+          <include name="goToHotelsPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.travelocity.testCases.TC_Exercise_003 -->
+      <class name="com.travelocity.testCases.TC_Exercise_004">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.travelocity.testCases.TC_Exercise_004 -->
+      <class name="com.travelocity.testCases.TC_Exercise_005">
+        <methods>
+          <include name="setup"/>
+          <include name="goToHotelsPage"/>
+        </methods>
+      </class> <!-- com.travelocity.testCases.TC_Exercise_005 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
